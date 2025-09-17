@@ -78,7 +78,7 @@ group by department_id;
 select department_id , avg(salary) as average_salary
 from employees
 group by department_id
-having avg(salary)>50000;
+having avg(salary)>55000;
 
 
 
